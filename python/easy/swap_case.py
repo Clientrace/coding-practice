@@ -1,3 +1,4 @@
+# Swap case in python
 # You are given a string and your task is to swap cases. In other words, convert
 # all lower case letters and vice versa.
 
@@ -6,7 +7,6 @@ def swap_case(s):
 
 def swap_case2(s):
     return s.swapcase()
-
 
 # tests
 assert swap_case('TEST') == 'test'
