@@ -35,15 +35,20 @@
 #                         H 
 
 # My ugly implementation
-char  = 'H'
-space = 6
+def display(width):
+    char  = 'H'
+    space = 6
+    return '{}\n{}\n{}\n{}\n{}'.format(
+        '\n'.join([((char*i).rjust(width-1) + char + (char*i).ljust(width-1)) for i in range(width)]),
+        '\n'.join([(char*width).center(width*2) + (char*width).center(width*space) for i in range(width+1)]),
+        '\n'.join([(char*width*(space-1)).center(width*space) for i in range(int(width/2)+1)]),
+        '\n'.join([(char*width).center(width*2) + (char*width).center(width*space) for i in range(width+1)]),
+        '\n'.join([((char*(width-i-1)).rjust(width) + char + (char*(width-i-1)).ljust(width)).rjust(width*space) for i in range(width)])
+    )
+
 width = int(input())
-print('{}\n{}\n{}\n{}\n{}'.format(
-    '\n'.join([((char*i).rjust(width-1) + char + (char*i).ljust(width-1)) for i in range(width)]),
-    '\n'.join([(char*width).center(width*2) + (char*width).center(width*space) for i in range(width+1)]),
-    '\n'.join([(char*width*(space-1)).center(width*space) for i in range(int(width/2)+1)]),
-    '\n'.join([(char*width).center(width*2) + (char*width).center(width*space) for i in range(width+1)]),
-    '\n'.join([((char*(width-i-1)).rjust(width) + char + (char*(width-i-1)).ljust(width)).rjust(width*space) for i in range(width)])
-))
+print(display(width))
+
+
 
 
