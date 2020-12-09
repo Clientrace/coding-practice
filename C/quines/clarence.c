@@ -14,7 +14,7 @@ const char*code9="%cconst char*code9=%c%s%c;const char*t2=%c%s%c;";const char*t2
 const char*cod10="%cconst char*cod10=%c%s%c;const char*t3=%c%s%c;";const char*t3="s1c2s1c2s1s5c5s2n1c2s1s5c2s1s5c2s3c2s1c2s3c2s1c2s4s2c2s2c2s1c2s1c2s1s5c2s5n1s1c6s1";
 const char*cod11="%cconst char*cod11=%c%s%c;const char*t4=%c%s%c;char n[262];%cconst cha";const char*t4="c7s1c2s1s2c2s1c2s1s2c2s1c7s1c2s1s1s1c4s2c6s1c7n1";char n[262];
 const char*cod12="r*cod12=%c%s%c;strcat(n,t);strcat(n,t2);strcat(n,t3);strcat(n,t4);const int speed";strcat(n,t);strcat(n,t2);strcat(n,t3);strcat(n,t4);const int speed
-=50000; const char*cod13="%c=50000; const char*cod13=%c%s%c;printf(%c Q %c);usleep(speed);fflush(stdout);printf(%c";printf(" Q ");usleep(speed);fflush(stdout);printf(
+=55000; const char*cod13="%c=55000; const char*cod13=%c%s%c;printf(%c Q %c);usleep(speed);fflush(stdout);printf(%c";printf(" Q ");usleep(speed);fflush(stdout);printf(
 " U "); const char*cod14="%c U %c); const char*cod14=%c%s%c;usleep(speed);fflush(stdout);printf(%c I %c);usleep(%c";usleep(speed);fflush(stdout);printf(" I ");usleep(
 speed); const char*cod15="speed); const char*cod15=%c%s%c; fflush(stdout);printf(%c N %c);usleep(speed);fflush(%c"; fflush(stdout);printf(" N ");usleep(speed);fflush(
 stdout);const char*cod16="stdout);const char*cod16=%c%s%c;printf(%c E %c); usleep(speed);fflush(stdout);printf(%c";printf(" E "); usleep(speed);fflush(stdout);printf(
@@ -28,27 +28,24 @@ speed); fflush(stdout); const char*cod23="speed); fflush(stdout); const char*cod
 fflush(stdout);printf(code4,map[0]);usleep(speed);fflush(stdout);printf(code5,map[0]);usleep(speed);fflush(stdout);printf(code6,map[2],map[1],map[1],map[1],map[1],map[
 2],map[2],map[2],code1,map[2],map[0],map[2],code2,map[2],map[0],map[2],code3,map[2],map[0],map[2],code4,map[2],map[0]);usleep(speed);fflush(stdout);printf(code7,map[2],
 code5,map[2],map[0],map[2],code6,map[2],map[0],map[2],code7,map[2],map[2],map[1],map[2],map[2],map[2]);usleep(speed);fflush(stdout);printf(co7,map[2],co7,map[2],map[2],
-map[1],map[2]);usleep(speed);fflush(stdout);printf(code8,map[0],map[2],code8,map[2],map[2],map[2],map[2],t,map[2]);usleep(speed);fflush(stdout);printf(code9,map[0],map[ //p4
-2],code9,map[2],map[2],t2,map[2]);usleep(speed);fflush(stdout);printf(cod10,map[0],map[2],cod10,map[2],map[2],t3,map[2]);usleep(speed);fflush(stdout);printf(cod11,map[0 //p5
-],map[2],cod11,map[2],map[2],t4,map[2],map[0]);usleep(speed);fflush(stdout);printf(cod12,map[2],cod12,map[2]);usleep(speed); fflush(stdout); printf(cod13,map[0],map[2],
-cod13, map[2],map[2],map[2],map[0]); usleep(speed); fflush(stdout); printf(cod14,map[2],map[2],map[2],cod14,map[2],map[2],map[2],map[0]); usleep(speed); fflush(stdout);
-printf(cod15,map[2],cod15,map[2],map[2],map[2],map[0]);usleep(speed);fflush(stdout);
-printf(cod16,map[2],cod16,map[2],map[2],map[2],map[0]);usleep(speed);fflush(stdout);
-printf(cod17,map[2],map[1],map[2],map[2],cod17,map[2]);usleep(speed);fflush(stdout);
-printf(cod18,map[0],map[2],map[2]);usleep(speed);fflush(stdout);
-printf(cod19,map[2],map[2],map[2],map[2],map[0],map[2],map[2]);usleep(speed);fflush(stdout);
-printf(cod20,map[2],cod18,map[2],map[0],map[2],cod19,map[2],map[0]);usleep(speed);fflush(stdout);
-printf(cod21,map[2],cod20,map[2],map[2],cod21,map[2],map[2],map[2],map[0]);
-printf(cod22,map[2],cod22,map[2],map[0]);
-printf(cod23,map[2],cod23,map[2],map[0]);
-
-const char*p1="fflush(stdout);printf(code4,map[0]);usleep(speed);fflush(stdout);printf(code5.map[0]);usleep(speed);fflush(stdout);printf(code6,map[2],map[1],map[1],map[1";
-const char*p2="2],map[2],map[2],code1,map[2],map[0],map[2],code2,map[2],map[0],map[2],code3,map[2],map[0],map[2],code4,map[2],map[0]);usleep(speed);fflush(stdout);printf(";
-const char*p3="code5,map[2],map[0],map[2],code6,map[2],map[0],map[2],code7,map[2],map[2],map[1],map[2],map[2],map[2]);usleep(speed);fflush(stdout);printf(co7,map[2],co7,";
-const char*p4="map[1],map[2]);usleep(speed);fflush(stdout);printf(code8,map[0],map[2],code8,map[2],map[2],map[2],map[2],t,map[2]);usleep(speed);fflush(stdout);printf(code9";
-const char*p5="2],code9,map[2],map[2],t2,map[2]);usleep(speed);fflush(stdout);printf(cod10,map[0],map[2],cod10,map[2],map[2],t3,map[2]);usleep(speed);fflush(stdout);printf";
-const char*base="%s],map[1],map[%c%scode7,map[2],%c%smap[2],map[2],%c%s,map[0],map[%c%s(cod11,map[0";
-printf(base,p1,map[0],p2,map[0],p3,map[0],p4,map[0],p5);
-}// COPY, PASTE AND COMPILE THIS CODE TO PRODUCE THE SAME THING :D
-
-
+map[1],map[2]);usleep(speed);fflush(stdout);printf(code8,map[0],map[2],code8,map[2],map[2],map[2],map[2],t,map[2]);usleep(speed);fflush(stdout);printf(code9,map[0],map[ 
+2],code9,map[2],map[2],t2,map[2]);usleep(speed);fflush(stdout);printf(cod10,map[0],map[2],cod10,map[2],map[2],t3,map[2]);usleep(speed);fflush(stdout);printf(cod11,map[0
+],map[2],cod11,map[2],map[2],t4,map[2],map[0]);usleep(speed);fflush(stdout);printf(cod12,map[2],cod12,map[2]);usleep(speed); fflush(stdout); printf(cod13,map[0],map[2], 
+cod13, map[2],map[2],map[2],map[0]); usleep(speed); fflush(stdout); printf(cod14,map[2],map[2],map[2],cod14,map[2],map[2],map[2],map[0]); usleep(speed); fflush(stdout); 
+printf(cod15,map[2],cod15,map[2],map[2],map[2],map[0]);usleep(speed);fflush(stdout);printf(cod16,map[2],cod16,map[2],map[2],map[2],map[0]);usleep(speed);fflush(stdout);
+printf(cod17,map[2],map[1],map[2],map[2],cod17,map[2]);usleep(speed);fflush(stdout);printf(cod18,map[0],map[2],map[2]);usleep(speed);fflush(stdout);printf(cod19,map[2],
+map[2],map[2],map[2],map[0],map[2],map[2]);usleep(speed);fflush(stdout);printf(cod20,map[2],cod18,map[2],map[0],map[2],cod19,map[2],map[0]);usleep(speed);fflush(stdout
+);printf(cod21,map[2],cod20,map[2],map[2],cod21,map[2],map[2],map[2],map[0]);printf(cod22,map[2],cod22,map[2],map[0]);printf(cod23,map[2],cod23,map[2],map[0]);char*Z[]={
+"fflush(stdout);printf(code4,map[0]);usleep(speed);fflush(stdout);printf(code5,map[0]);usleep(speed);fflush(stdout);printf(code6,map[2],map[1],map[1],map[1],map[1],map[",
+"2],map[2],map[2],code1,map[2],map[0],map[2],code2,map[2],map[0],map[2],code3,map[2],map[0],map[2],code4,map[2],map[0]);usleep(speed);fflush(stdout);printf(code7,map[2],",
+"code5,map[2],map[0],map[2],code6,map[2],map[0],map[2],code7,map[2],map[2],map[1],map[2],map[2],map[2]);usleep(speed);fflush(stdout);printf(co7,map[2],co7,map[2],map[2],",
+"map[1],map[2]);usleep(speed);fflush(stdout);printf(code8,map[0],map[2],code8,map[2],map[2],map[2],map[2],t,map[2]);usleep(speed);fflush(stdout);printf(code9,map[0],map[",
+"2],code9,map[2],map[2],t2,map[2]);usleep(speed);fflush(stdout);printf(cod10,map[0],map[2],cod10,map[2],map[2],t3,map[2]);usleep(speed);fflush(stdout);printf(cod11,map[0",
+"],map[2],cod11,map[2],map[2],t4,map[2],map[0]);usleep(speed);fflush(stdout);printf(cod12,map[2],cod12,map[2]);usleep(speed); fflush(stdout); printf(cod13,map[0],map[2],",
+"cod13, map[2],map[2],map[2],map[0]); usleep(speed); fflush(stdout); printf(cod14,map[2],map[2],map[2],cod14,map[2],map[2],map[2],map[0]); usleep(speed); fflush(stdout);",
+"printf(cod15,map[2],cod15,map[2],map[2],map[2],map[0]);usleep(speed);fflush(stdout);printf(cod16,map[2],cod16,map[2],map[2],map[2],map[0]);usleep(speed);fflush(stdout);",
+"printf(cod17,map[2],map[1],map[2],map[2],cod17,map[2]);usleep(speed);fflush(stdout);printf(cod18,map[0],map[2],map[2]);usleep(speed);fflush(stdout);printf(cod19,map[2],",
+"map[2],map[2],map[2],map[0],map[2],map[2]);usleep(speed);fflush(stdout);printf(cod20,map[2],cod18,map[2],map[0],map[2],cod19,map[2],map[0]);usleep(speed);fflush(stdout",
+");printf(cod21,map[2],cod20,map[2],map[2],cod21,map[2],map[2],map[2],map[0]);printf(cod22,map[2],cod22,map[2],map[0]);printf(cod23,map[2],cod23,map[2],map[0]);char*Z[]={",
+};char*F1="%s%c";char*F2="%c%s%c,%c";int o, y=11;for(o=0;o<y;o++){printf(F1,Z[o],map[0]);}for(o=0;o<y;o++){printf(F2,map[2],Z[o],map[2],map[0]);}char*M=
+"};char*F1=%c%s%c;char*F2=%c%s%c;int o, y=11;for(o=0;o<y;o++){printf(F1,Z[o],map[0]);}for(o=0;o<y;o++){printf(F2,map[2],Z[o],map[2],map[0]);}char*M=%c%c%s%c%cprintf(M,map[2],F1,map[2],map[2],F2,map[2]);}";printf(M,map[2],F1,map[2],map[2],F2,map[2],map[0],map[2],M,map[2],map[0]);}
