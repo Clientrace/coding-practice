@@ -1,12 +1,12 @@
-#include<stdio.h>  // Quine in C, took me half a day just to implement. Displays my animated name and it's own source code. In short, a complex useless code :D!sry
+#include<stdio.h>  // Quine in C, took me half a day just to implement. Displays my animated name and it's own source code. In short, a complex useless code :D!sry..
 #include<unistd.h> // Kim Clarence Penaflor - [ kimc.penaflor@gmail.com ] Nothing to comment here, just wanna fill the blanks to hide my ugly obfuscated code.. :(
 #include<string.h> // Nothing here also. BLAH blah blah BLAH blah, uSeFUl comments. BLah, blah, blah, blah blah. If you're someone from google, hire me pls..,,, jk
-#include<stdlib.h> // Still trying to fill the void in my code and my life, haha (See what i did there). Took me hours to made this art, oh well. #nerd	   ¯\_(ツ)_/¯   
+#include<stdlib.h> // Still trying to fill the void in my code and my life, haha (See what i did there). Took me hours to made this art, oh well. #nerd    ¯\_(ツ)_/¯   
 static char map[]="\n\\\"scn=";void main(){const char*code1="#include<stdio.h>  // Quine in C, took me half a day just to implement. Displays my animated name and ";
 const char*code2="it's own source code. In short, a complex useless code :D!sry..%c#include<unistd.h> // Kim Clarence Penaflor - [ kimc.penaflor@gmail.com ] Nothin";
 const char*code3="g to comment here, just wanna fill the blanks to hide my ugly obfuscated code.. :(%c#include<string.h> // Nothing here also. BLAH blah blah BLAH ";
 const char*code4="blah, uSeFUl comments. BLah, blah, blah, blah blah. If you're someone from google, hire me pls..,,, jk%c#include<stdlib.h> // Still trying to fill";
-const char*code5=" the void in my code and my life, haha (See what i did there). Took me hours to made this art, oh well. #nerd    ¯\\_(ツ)_/¯   %cstatic char map[]";
+const char*code5=" the void in my code and my life, haha (See what i did there). Took me hours to made this art, oh well. #nerd    ¯\_(ツ)_/¯   %cstatic char map[]";
 const char*code6="=%c%cn%c%c%c%cscn=%c;void main(){const char*code1=%c%s%c;%cconst char*code2=%c%s%c;%cconst char*code3=%c%s%c;%cconst char*code4=%c%s%c;%cconst cha";
 const char*code7="r*code5=%c%s%c;%cconst char*code6=%c%s%c;%cconst char*code7=%c%s%c;";const char*co7="const char*co7=%c%s%c;char c[]=%c%cu2588%c;";char c[]="\u2588";
 const char*code8="%cconst char*code8=%c%s%c;system(%cclear%c);const char*t=%c%s%c;";system("clear");const char*t="s1c6s1c2s1s6c5s1s1c6s1s1c7s1c3s1s3c2s1s1c6s1c7n1c2";
@@ -28,10 +28,10 @@ speed); fflush(stdout); const char*cod23="speed); fflush(stdout); const char*cod
 fflush(stdout);printf(code4,map[0]);usleep(speed);fflush(stdout);printf(code5,map[0]);usleep(speed);fflush(stdout);printf(code6,map[2],map[1],map[1],map[1],map[1],map[
 2],map[2],map[2],code1,map[2],map[0],map[2],code2,map[2],map[0],map[2],code3,map[2],map[0],map[2],code4,map[2],map[0]);usleep(speed);fflush(stdout);printf(code7,map[2],
 code5,map[2],map[0],map[2],code6,map[2],map[0],map[2],code7,map[2],map[2],map[1],map[2],map[2],map[2]);usleep(speed);fflush(stdout);printf(co7,map[2],co7,map[2],map[2],
-map[1],map[2]);usleep(speed);fflush(stdout);printf(code8,map[0],map[2],code8,map[2],map[2],map[2],map[2],t,map[2]);usleep(speed);fflush(stdout);printf(code9,map[0],map[ 
+map[1],map[2]);usleep(speed);fflush(stdout);printf(code8,map[0],map[2],code8,map[2],map[2],map[2],map[2],t,map[2]);usleep(speed);fflush(stdout);printf(code9,map[0],map[
 2],code9,map[2],map[2],t2,map[2]);usleep(speed);fflush(stdout);printf(cod10,map[0],map[2],cod10,map[2],map[2],t3,map[2]);usleep(speed);fflush(stdout);printf(cod11,map[0
-],map[2],cod11,map[2],map[2],t4,map[2],map[0]);usleep(speed);fflush(stdout);printf(cod12,map[2],cod12,map[2]);usleep(speed); fflush(stdout); printf(cod13,map[0],map[2], 
-cod13, map[2],map[2],map[2],map[0]); usleep(speed); fflush(stdout); printf(cod14,map[2],map[2],map[2],cod14,map[2],map[2],map[2],map[0]); usleep(speed); fflush(stdout); 
+],map[2],cod11,map[2],map[2],t4,map[2],map[0]);usleep(speed);fflush(stdout);printf(cod12,map[2],cod12,map[2]);usleep(speed); fflush(stdout); printf(cod13,map[0],map[2],
+cod13, map[2],map[2],map[2],map[0]); usleep(speed); fflush(stdout); printf(cod14,map[2],map[2],map[2],cod14,map[2],map[2],map[2],map[0]); usleep(speed); fflush(stdout);
 printf(cod15,map[2],cod15,map[2],map[2],map[2],map[0]);usleep(speed);fflush(stdout);printf(cod16,map[2],cod16,map[2],map[2],map[2],map[0]);usleep(speed);fflush(stdout);
 printf(cod17,map[2],map[1],map[2],map[2],cod17,map[2]);usleep(speed);fflush(stdout);printf(cod18,map[0],map[2],map[2]);usleep(speed);fflush(stdout);printf(cod19,map[2],
 map[2],map[2],map[2],map[0],map[2],map[2]);usleep(speed);fflush(stdout);printf(cod20,map[2],cod18,map[2],map[0],map[2],cod19,map[2],map[0]);usleep(speed);fflush(stdout
@@ -48,4 +48,5 @@ map[2],map[2],map[2],map[0],map[2],map[2]);usleep(speed);fflush(stdout);printf(c
 "map[2],map[2],map[2],map[0],map[2],map[2]);usleep(speed);fflush(stdout);printf(cod20,map[2],cod18,map[2],map[0],map[2],cod19,map[2],map[0]);usleep(speed);fflush(stdout",
 ");printf(cod21,map[2],cod20,map[2],map[2],cod21,map[2],map[2],map[2],map[0]);printf(cod22,map[2],cod22,map[2],map[0]);printf(cod23,map[2],cod23,map[2],map[0]);char*Z[]={",
 };char*F1="%s%c";char*F2="%c%s%c,%c";int o, y=11;for(o=0;o<y;o++){printf(F1,Z[o],map[0]);}for(o=0;o<y;o++){printf(F2,map[2],Z[o],map[2],map[0]);}char*M=
-"};char*F1=%c%s%c;char*F2=%c%s%c;int o, y=11;for(o=0;o<y;o++){printf(F1,Z[o],map[0]);}for(o=0;o<y;o++){printf(F2,map[2],Z[o],map[2],map[0]);}char*M=%c%c%s%c%c;%cprintf(M,map[2],F1,map[2],map[2],F2,map[2],ma[0],map[2],M,map[2],map[0]);}";printf(M,map[2],F1,map[2],map[2],F2,map[2],map[0],map[2],M,map[2],map[0]);}
+"};char*F1=%c%s%c;char*F2=%c%s%c;int o, y=11;for(o=0;o<y;o++){printf(F1,Z[o],map[0]);}for(o=0;o<y;o++){printf(F2,map[2],Z[o],map[2],map[0]);}char*M=%c%c%s%c%cprintf(M,map[2],F1,map[2],map[2],F2,map[2]);}"
+printf(M,map[2],F1,map[2],map[2],F2,map[2]);}

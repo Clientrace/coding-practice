@@ -25,7 +25,7 @@ def print_rangoli(size):
         rev = pattern[:-1]
         rev.reverse()
         print('-'.join(pattern+rev))
-    for i in range(size-1,-1,-1):
+    for i in range(size-2,-1,-1):
         pattern = []
         p_val = center_val + size
         for j in range(0,size):
@@ -38,3 +38,4 @@ def print_rangoli(size):
         rev.reverse()
         print('-'.join(pattern+rev))
 
+print_rangoli(3)
